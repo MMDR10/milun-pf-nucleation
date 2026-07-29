@@ -1,0 +1,105 @@
+{
+  "script": "ohat_200hz_dirA.py",
+  "timestamp": "2026-07-29 08:29:18 UTC",
+  "data": "200 Hz P_f Milun Fault (dn4338tv9g)",
+  "eq_time": 28691,
+  "results": {
+    "A1_bandpass": {
+      "Wideband": {
+        "band_hz": "0.01-95.0",
+        "baseline_\u03b8_spread": 3.7487,
+        "pre-20min_\u03b8_spread": 3.6119,
+        "\u03b8_spread_ratio": 0.964,
+        "last5min_\u03b8_spread": 3.5406,
+        "last5min_z": -1.16,
+        "n_baseline": 25,
+        "n_pre": 95
+      },
+      "Tremor": {
+        "band_hz": "0.5-5.0",
+        "baseline_\u03b8_spread": 3.1227,
+        "pre-20min_\u03b8_spread": 3.1217,
+        "\u03b8_spread_ratio": 1.0,
+        "last5min_\u03b8_spread": 3.075,
+        "last5min_z": -0.27,
+        "n_baseline": 47,
+        "n_pre": 117
+      },
+      "LF": {
+        "band_hz": "1.0-10.0",
+        "baseline_\u03b8_spread": 3.2143,
+        "pre-20min_\u03b8_spread": 3.2511,
+        "\u03b8_spread_ratio": 1.011,
+        "last5min_\u03b8_spread": 3.1897,
+        "last5min_z": -0.11,
+        "n_baseline": 47,
+        "n_pre": 117
+      },
+      "MF1": {
+        "band_hz": "10.0-30.0",
+        "baseline_\u03b8_spread": 3.3474,
+        "pre-20min_\u03b8_spread": 3.4012,
+        "\u03b8_spread_ratio": 1.016,
+        "last5min_\u03b8_spread": 3.3536,
+        "last5min_z": 0.03,
+        "n_baseline": 47,
+        "n_pre": 117
+      },
+      "MF2": {
+        "band_hz": "30.0-60.0",
+        "baseline_\u03b8_spread": 3.4822,
+        "pre-20min_\u03b8_spread": 3.4658,
+        "\u03b8_spread_ratio": 0.995,
+        "last5min_\u03b8_spread": 3.4328,
+        "last5min_z": -0.23,
+        "n_baseline": 47,
+        "n_pre": 117
+      },
+      "HF": {
+        "band_hz": "60.0-95.0",
+        "baseline_\u03b8_spread": 3.3945,
+        "pre-20min_\u03b8_spread": 3.2749,
+        "\u03b8_spread_ratio": 0.965,
+        "last5min_\u03b8_spread": 3.3862,
+        "last5min_z": -0.03,
+        "n_baseline": 47,
+        "n_pre": 117
+      }
+    },
+    "A2_xcorr": {
+      "pre_mean_r": -0.0643,
+      "post_mean_r": 0.4811,
+      "delta_r": 0.5454
+    },
+    "A4_spectral_evolution": {
+      "total_windows": 49,
+      "last_8min_vs_early": {
+        "ULF": {
+          "early": 0.0,
+          "late": 0.0,
+          "ratio": 1.066
+        },
+        "VLF": {
+          "early": 0.0,
+          "late": 0.0,
+          "ratio": 1.0765
+        },
+        "LF": {
+          "early": 0.0,
+          "late": 0.0,
+          "ratio": 1.0276
+        },
+        "MF": {
+          "early": 0.0,
+          "late": 0.0,
+          "ratio": 1.0102
+        },
+        "HF": {
+          "early": 0.0,
+          "late": 0.0,
+          "ratio": 1.0168
+        }
+      }
+    }
+  }
+}
